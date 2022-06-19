@@ -1,0 +1,24 @@
+{
+  "description": "Base ESLint Config for my Projects",
+  "license": "UNLICENSED",
+  "name": "@dennispio/eslint-config-base",
+  "main": "src/index.js",
+  "private": false,
+  "version": "1.0.0",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.6.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "git://github.com/nordlb-ui/linting-configs.git"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "React ESLint config for my projects",
+  "license": "UNLICENSED",
+  "name": "@dennispio/eslint-config-react",
+  "main": "src/index.js",
+  "private": false,
+  "version": "1.0.0",
+  "dependencies": {
+    "eslint": "^8.11.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "git://github.com/nordlb-ui/linting-configs.git"
+  }
+}
