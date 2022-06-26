@@ -1,8 +1,8 @@
 {
   "description": "prettier config for my projects",
-  "name": "@dennispio/prettier-config",
   "license": "UNLICENSED",
   "main": "src/index.js",
+  "name": "@dennispio/prettier-config",
   "private": false,
   "version": "1.0.0",
   "publishConfig": {
