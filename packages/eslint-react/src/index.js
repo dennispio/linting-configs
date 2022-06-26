@@ -24,8 +24,8 @@ module.exports = {
     'react-hooks/exhaustive-deps': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
-    'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 0,
+    'react/jsx-props-no-spreading': 'off',
     'react/self-closing-comp': [
       'error',
       {
