@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "name": "@dennispio/eslint-config-base",
   "private": false,
-  "version": "1.1.0",
+  "version": "1.0.0",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
@@ -19,6 +19,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
-    "url": "git://github.com/nordlb-ui/linting-configs.git"
+    "url": "git://github.com/dennispio/linting-configs.git"
   }
 }
