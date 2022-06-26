@@ -1,8 +1,8 @@
 {
   "description": "Base ESLint Config for my Projects",
   "license": "UNLICENSED",
-  "name": "@dennispio/eslint-config-base",
   "main": "src/index.js",
+  "name": "@dennispio/eslint-config-base",
   "private": false,
   "version": "1.0.0",
   "dependencies": {
