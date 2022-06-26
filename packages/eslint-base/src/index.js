@@ -67,34 +67,29 @@ module.exports = {
     ],
     '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
     // ESLINT-BASIC
-    // enforces getter/setter pairs in objects
+    // enforces getter/setter pairs in objects +
     // https://eslint.org/docs/rules/accessor-pairs
     'accessor-pairs': 'off',
 
-    // enforces return statements in callbacks of array's methods
+    // enforces return statements in callbacks of array's methods +
     // https://eslint.org/docs/rules/array-callback-return
     'array-callback-return': ['error', { allowImplicit: true }],
 
-    // treat var statements as if they were block scoped
+    // treat var statements as if they were block scoped +
     // https://eslint.org/docs/rules/block-scoped-var
     'block-scoped-var': 'error',
 
-    // specify the maximum cyclomatic complexity allowed in a program
+    // specify the maximum cyclomatic complexity allowed in a program +
     // https://eslint.org/docs/rules/complexity
     'complexity': ['off', 20],
 
     // enforce that class methods use "this"
     // https://eslint.org/docs/rules/class-methods-use-this
-    'class-methods-use-this': [
-      'error',
-      {
-        exceptMethods: []
-      }
-    ],
+    'class-methods-use-this': 'off',
 
     // require return statements to either always or never specify values
     // https://eslint.org/docs/rules/consistent-return
-    'consistent-return': 'error',
+    'consistent-return': 1,
 
     // specify curly brace conventions for all control statements
     // https://eslint.org/docs/rules/curly
@@ -109,11 +104,11 @@ module.exports = {
     'default-case-last': 'error',
 
     // https://eslint.org/docs/rules/default-param-last
-    'default-param-last': 'error',
+    'default-param-last': 'off',
 
     // encourages use of dot notation whenever possible
     // https://eslint.org/docs/rules/dot-notation
-    'dot-notation': ['error', { allowKeywords: true }],
+    'dot-notation': 'off',
 
     // enforces consistent newlines before or after dots
     // https://eslint.org/docs/rules/dot-location
@@ -129,11 +124,11 @@ module.exports = {
 
     // make sure for-in loops have an if statement
     // https://eslint.org/docs/rules/guard-for-in
-    'guard-for-in': 'error',
+    'guard-for-in': 'off',
 
     // enforce a maximum number of classes per file
     // https://eslint.org/docs/rules/max-classes-per-file
-    'max-classes-per-file': ['error', 1],
+    'max-classes-per-file': 'off',
 
     // disallow the use of alert, confirm, and prompt
     // https://eslint.org/docs/rules/no-alert
@@ -211,7 +206,7 @@ module.exports = {
     // disallow implicit type conversions
     // https://eslint.org/docs/rules/no-implicit-coercion
     'no-implicit-coercion': [
-      'off',
+      1,
       {
         boolean: false,
         number: true,
@@ -271,11 +266,11 @@ module.exports = {
 
     // disallow use of multiline strings
     // https://eslint.org/docs/rules/no-multi-str
-    'no-multi-str': 'error',
+    'no-multi-str': 1,
 
     // disallow use of new operator when not part of the assignment or comparison
     // https://eslint.org/docs/rules/no-new
-    'no-new': 'error',
+    'no-new': 1,
 
     // disallow use of new operator for Function object
     // https://eslint.org/docs/rules/no-new-func

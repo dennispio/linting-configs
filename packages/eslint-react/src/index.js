@@ -14,12 +14,6 @@ module.exports = {
     }
   },
   rules: {
-    'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
-    'react/react-in-jsx-scope': 'off',
-    'react-hooks/exhaustive-deps': 0,
-    'react-hooks/rules-of-hooks': 'error',
-    'react/prop-types': 0,
-    'react/jsx-props-no-spreading': 'off',
     'react/boolean-prop-naming': [
       2,
       {
@@ -27,12 +21,18 @@ module.exports = {
         message: 'Functions that return a boolean need to start with is or has.'
       }
     ],
+    'react-hooks/exhaustive-deps': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+    'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 0,
     'react/self-closing-comp': [
       'error',
       {
         component: true,
         html: true
       }
-    ]
+    ],
+    'react/react-in-jsx-scope': 'off'
   }
 }
